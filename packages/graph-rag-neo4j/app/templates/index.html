@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="max-w-7xl mx-auto px-4 py-8">
+    <header class="mb-8 text-center">
+        <h1 class="text-3xl font-bold text-gray-800">Graph RAG Q&A System</h1>
+        <p class="text-gray-500 mt-2">PDF 문서를 지식 그래프로 구축하고 하이브리드 검색으로 질문하세요</p>
+    </header>
+
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <!-- Left column: Upload + Documents + Graph Stats -->
+        <div class="lg:col-span-1 space-y-6">
+            {% include "components/upload.html" %}
+
+            <div class="bg-white rounded-xl shadow-sm border p-5">
+                <h2 class="text-lg font-semibold text-gray-700 mb-3">업로드된 문서</h2>
+                <div id="document-list" class="space-y-2">
+                    <p class="text-gray-400 text-sm" id="no-docs-msg">문서가 없습니다.</p>
+                </div>
+            </div>
+
+            {% include "components/graph_panel.html" %}
+        </div>
+
+        <!-- Right column: Search + Results -->
+        <div class="lg:col-span-2 space-y-6">
+            {% include "components/search.html" %}
+            {% include "components/results.html" %}
+        </div>
+    </div>
+</div>
+{% endblock %}
