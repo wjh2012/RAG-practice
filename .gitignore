@@ -1,4 +1,13 @@
 *.bin
 *.sqlite3
+.env
+__pycache__/
+*.pyc
+chroma_db/
+uploads/
+documents_registry.json
+.idea/
+.venv/
+
 
 models
