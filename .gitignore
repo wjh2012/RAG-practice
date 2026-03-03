@@ -8,6 +8,4 @@ uploads/
 documents_registry.json
 .idea/
 .venv/
-
-
-models
+models/
