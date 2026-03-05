@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git:*)",
+      "Bash(.venv/Scripts/python.exe:*)",
+      "Bash(.venv/Scripts/pip list:*)",
+      "Bash(.venv/Scripts/pip.exe list:*)",
+      "Bash(python:*)",
+      "Bash(uv add:*)",
+      "Bash(mkdir:*)",
+      "Bash(uv run:*)",
+      "Bash(netstat:*)",
+      "Bash(mv app:*)",
+      "Bash(rm:*)",
+      "Bash(uv sync:*)",
+      "Bash(mv:*)",
+      "WebSearch",
+      "WebFetch(domain:neo4j.com)",
+      "Bash(uv lock:*)"
+    ]
+  }
+}

@@ -3,7 +3,13 @@ name = "rag-workspace"
 version = "0.1.0"
 description = "RAG workspace root"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "ipykernel>=7.2.0",
+    "openpyxl>=3.1.5",
+    "pandas>=2.3.3",
+    "selenium>=4.41.0",
+    "webdriver-manager>=4.0.2",
+]
 [tool.uv.workspace]
 members = ["packages/*"]
 
