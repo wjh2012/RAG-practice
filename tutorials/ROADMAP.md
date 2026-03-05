@@ -17,9 +17,9 @@ Naive RAG의 한계를 개선하는 기법들. "검색 품질"에 대한 감각 
 - [x] **Step 0** - Naive RAG 한계 분석 → [step0-naive-rag-limits.md](02-advanced-rag/step0-naive-rag-limits.md)
 - [x] **Step 1** - Semantic Chunking → [step1-semantic-chunking.md](02-advanced-rag/step1-semantic-chunking.md)
 - [x] **Step 2** - Query Transformation (HyDE, Multi-Query) → [step2-query-transformation.md](02-advanced-rag/step2-query-transformation.md)
-- [ ] **Step 3** - Re-ranking (Cross-encoder)
-- [ ] **Step 4** - Hybrid Search (BM25 + 벡터 검색)
-- [ ] **Step 5** - Advanced RAG 통합 파이프라인
+- [x] **Step 3** - Re-ranking (Cross-encoder) → [step3-reranking.md](02-advanced-rag/step3-reranking.md)
+- [x] **Step 4** - Hybrid Search (BM25 + 벡터 검색) → [step4-hybrid-search.md](02-advanced-rag/step4-hybrid-search.md)
+- [x] **Step 5** - Advanced RAG 통합 파이프라인 → [step5-integrated-pipeline.md](02-advanced-rag/step5-integrated-pipeline.md)
 
 ## 3단계: Knowledge Graph 기초 (1주)
 
