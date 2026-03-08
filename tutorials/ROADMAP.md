@@ -26,8 +26,8 @@ Naive RAG의 한계를 개선하는 기법들. "검색 품질"에 대한 감각 
 GraphRAG 전에 지식 그래프 자체를 이해하기.
 
 - [x] **Step 1** - 노드, 엣지, 트리플 개념 → [step1-node-edge-triple.md](03-knowledge-graph/step1-node-edge-triple.md)
-- [ ] **Step 2** - Neo4j 설치 & Cypher 쿼리 기초
-- [ ] **Step 3** - 뉴스 데이터로 간단한 그래프 만들기
+- [x] **Step 2** - Neo4j 설치 & Cypher 쿼리 기초 → [step2-neo4j-cypher.md](03-knowledge-graph/step2-neo4j-cypher.md)
+- [x] **Step 3** - 뉴스 데이터로 간단한 그래프 만들기 → [step3-news-graph.md](03-knowledge-graph/step3-news-graph.md)
 
 ## 4단계: GraphRAG (2~3주)
 
