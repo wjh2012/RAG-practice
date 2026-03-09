@@ -33,12 +33,10 @@ GraphRAG 전에 지식 그래프 자체를 이해하기.
 
 엔티티·관계 추출 → 그래프 구조화 → 커뮤니티 탐지 → 그래프 기반 검색.
 
-- [ ] **Step 1** - GraphRAG 개념 & Microsoft 논문 이해
-- [ ] **Step 2** - 엔티티/관계 추출 (LLM 활용)
-- [ ] **Step 3** - Neo4j에 그래프 저장
-- [ ] **Step 4** - Local Search vs Global Search
-- [ ] **Step 5** - GraphRAG 통합 파이프라인
-- [ ] **Step 6** - Naive RAG vs Advanced RAG vs GraphRAG 비교
+- [x] **Step 1** - GraphRAG 개념 & Local Search 구현 → [step1-concept.md](04-graph-rag/step1-concept.md)
+- [x] **Step 2** - Global Search (커뮤니티 기반 검색) → [step2-global-search.md](04-graph-rag/step2-global-search.md)
+- [ ] **Step 3** - GraphRAG 통합 파이프라인
+- [ ] **Step 4** - Naive RAG vs Advanced RAG vs GraphRAG 최종 비교
 
 ---
 
