@@ -35,8 +35,8 @@ GraphRAG 전에 지식 그래프 자체를 이해하기.
 
 - [x] **Step 1** - GraphRAG 개념 & Local Search 구현 → [step1-concept.md](04-graph-rag/step1-concept.md)
 - [x] **Step 2** - Global Search (커뮤니티 기반 검색) → [step2-global-search.md](04-graph-rag/step2-global-search.md)
-- [ ] **Step 3** - GraphRAG 통합 파이프라인
-- [ ] **Step 4** - Naive RAG vs Advanced RAG vs GraphRAG 최종 비교
+- [x] **Step 3** - GraphRAG 통합 파이프라인 → [step3-integrated-pipeline.md](04-graph-rag/step3-integrated-pipeline.md)
+- [x] **Step 4** - Naive RAG vs Advanced RAG vs GraphRAG 최종 비교 → [step4-final-comparison.md](04-graph-rag/step4-final-comparison.md)
 
 ---
 
